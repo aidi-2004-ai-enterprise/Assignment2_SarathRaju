@@ -8,9 +8,13 @@ This project implements a machine learning pipeline to classify penguin species 
 ## Setup & Installation
 
 1. **Clone the repository & set up environment**
-    Enter ctrl+shift+P 
-    git clone 
+   
+    Enter ctrl+shift+P
+   
+    git clone
+   
     cd lab03_SarathKumar_Raju
+   
 
     Activate virtual environment
     uv venv .venv
