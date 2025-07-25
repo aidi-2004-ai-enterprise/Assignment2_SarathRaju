@@ -17,11 +17,15 @@ This project implements a machine learning pipeline to classify penguin species 
    
 
     Activate virtual environment
+   
     uv venv .venv
+   
     # Activate:
     .venv\Scripts\activate
+   
     uv pip install -r requirements.txt
-    ```
+
+
 
 ---
 
