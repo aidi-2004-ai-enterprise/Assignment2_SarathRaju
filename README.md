@@ -20,7 +20,7 @@ This project implements a machine learning pipeline to classify penguin species 
    
     uv venv .venv
    
-    # Activate:
+     **Activate**
     .venv\Scripts\activate
    
     uv pip install -r requirements.txt
@@ -34,30 +34,38 @@ This project implements a machine learning pipeline to classify penguin species 
 2. **Train the XGBoost model**
     Enter 
     python train.py
-    ```
-    - This generates `model.json` and `encoders.json` in `app/data/`.
+    
+This generates `model.json` and `encoders.json` in `app/data/
 
 ---
 
 ## Running the API
 
 3. **Start the FastAPI server**
-    Enter 
+    Enter
+   
     uvicorn app.main:app --reload
-    ```
+   
+    
     - Visit API docs: http://127.0.0.1:8000/docs
 
----
 
 ## API Usage Examples
 
 **Valid Prediction :**
 
-  -H "Content-Type: application/json" ^
+   Content-Type: application/json" 
+   
   -d "{\"bill_length_mm\":39.1,
+  
         \"bill_depth_mm\":18.7,
+        
         \"flipper_length_mm\":181,
+        
         \"body_mass_g\":3750,
+        
         \"year\":2007,
+        
         \"sex\":\"male\",
+        
         \"island\":\"Torgersen\"}"
