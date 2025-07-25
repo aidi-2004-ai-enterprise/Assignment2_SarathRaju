@@ -1,0 +1,27 @@
+{
+  "label_encoder": {
+    "Adelie": 0,
+    "Chinstrap": 1,
+    "Gentoo": 2
+  },
+  "sex_categories": [
+    "sex_Female",
+    "sex_Male"
+  ],
+  "island_categories": [
+    "island_Biscoe",
+    "island_Dream",
+    "island_Torgersen"
+  ],
+  "feature_columns": [
+    "bill_length_mm",
+    "bill_depth_mm",
+    "flipper_length_mm",
+    "body_mass_g",
+    "sex_Female",
+    "sex_Male",
+    "island_Biscoe",
+    "island_Dream",
+    "island_Torgersen"
+  ]
+}

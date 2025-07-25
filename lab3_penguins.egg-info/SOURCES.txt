@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+app/main.py
+lab3_penguins.egg-info/PKG-INFO
+lab3_penguins.egg-info/SOURCES.txt
+lab3_penguins.egg-info/dependency_links.txt
+lab3_penguins.egg-info/requires.txt
+lab3_penguins.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+[project]
+name = "lab3_penguins"
+version = "0.1.0"
+dependencies = [
+    "xgboost",
+    "scikit-learn",
+    "seaborn",
+    "pandas",
+    "numpy",
+    "fastapi",
+    "uvicorn"
+]

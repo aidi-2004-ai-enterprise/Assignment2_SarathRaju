@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: lab3_penguins
+Version: 0.1.0
+Requires-Dist: xgboost
+Requires-Dist: scikit-learn
+Requires-Dist: seaborn
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
