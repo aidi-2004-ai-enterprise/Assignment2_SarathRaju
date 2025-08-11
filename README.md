@@ -7,14 +7,14 @@ pytest --cov=. --cov-report=term-missing tests/
 Coverage output
 
 
-Name                Stmts   Miss  Cover
----------------------------------------
-app/main.py           151     41    73%
-locustfile.py           0      0   100%
-tests/test_api.py      70      6    91%
-train.py               39     39     0%
----------------------------------------
-TOTAL                 260     86    67%
+Name 	stmts	miss	cover
+main.py	151	41	73%
+locust.py	0	0	100%
+test.py	70	70	91%
+train.py	39	39	0%
+Total	260	86	67%
+
+
 
 
 1) Edge cases not in training data (what could break it?)
