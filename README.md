@@ -7,11 +7,16 @@ pytest --cov=. --cov-report=term-missing tests/
 Coverage output
 
 
-Name 	stmts	miss	cover
+Name 	 
+
 main.py	151	41	73%
+
 locust.py	0	0	100%
+
 test.py	70	70	91%
+
 train.py	39	39	0%
+
 Total	260	86	67%
 
 
