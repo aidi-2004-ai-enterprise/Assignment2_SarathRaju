@@ -1,0 +1,14 @@
+﻿.venv/
+__pycache__/
+.pytest_cache/
+.env
+.DS_Store
+
+# large native/binary artifacts
+*.dll
+*.so
+*.pyd
+*.onnx
+*.pb
+*.pt
+*.pth
