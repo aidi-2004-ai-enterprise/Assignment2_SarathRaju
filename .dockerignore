@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.git
+.gitignore
+*.md
+.vscode/
+.idea/
+.mypy_cache/
+.pytest_cache/
+*.log
+.notebooks/
+data/
+venv/
+.venv/
+dist/
+build/
+
+
+# Secrets & env files
+aidi2004-assgn2-2a9797f64af5.json
+*.json
+.env
+*.env
+

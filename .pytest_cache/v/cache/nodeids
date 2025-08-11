@@ -1,0 +1,14 @@
+[
+  "tests/test_api.py::test_health_degraded_or_unavailable",
+  "tests/test_api.py::test_health_degraded_when_not_ready",
+  "tests/test_api.py::test_health_ok",
+  "tests/test_api.py::test_predict_empty_body",
+  "tests/test_api.py::test_predict_internal_error",
+  "tests/test_api.py::test_predict_invalid_type",
+  "tests/test_api.py::test_predict_missing_field",
+  "tests/test_api.py::test_predict_out_of_range_and_boundary[-3000]",
+  "tests/test_api.py::test_predict_out_of_range_and_boundary[0]",
+  "tests/test_api.py::test_predict_out_of_range_and_boundary[1000000000]",
+  "tests/test_api.py::test_predict_valid_input",
+  "tests/test_api.py::test_root"
+]
