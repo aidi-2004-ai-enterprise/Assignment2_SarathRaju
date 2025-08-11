@@ -2,7 +2,7 @@
 
 Welcome to the Penguin Classification API! Deployed at https://penguin-api-191199043596.us-central1.run.app, this project delivers a machine learning application for classifying penguin species using an XGBoost model trained on the Penguins dataset. Built with FastAPI, containerized with Docker, and deployed on Google Cloud Run, it ensures scalable, production-ready inference. The model is stored in Google Cloud Storage and loaded via the Google Cloud SDK. Comprehensive unit tests and Locust load testing validate reliability and performance.
 
-This repository fulfills Assignment 2: Building and Deploying Your ML Application with CI/CD, covering:
+This repository fulfills Assignment 2: Building and Deploying  ML Application with CI/CD, covering:
 
 1.Testing
 
@@ -28,7 +28,7 @@ Setup Instructions
 
 ### Prerequisites
 
-- **Google Cloud Account** ([Free trial](https://cloud.google.com/free))
+- **Google Cloud Account** 
 - GCP Project with the following APIs enabled:
   - Cloud Run
   - Artifact Registry
